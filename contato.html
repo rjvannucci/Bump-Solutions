@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MOBIVIEW - Contato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+ 
+    <!-- Begin MailChimp Signup Form -->
+    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+
+<body>
+
+    <!-- MobiView navbar -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" id="logo" href="#">
+            <img src="assets/img/mobiview.png" width="207" height="30"/>
+          </a>
+          <div class="nav-collapse">
+            <ul class="nav pull-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="empresa.html">Empresa</a></li>
+              <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produtos<b class="caret"></b></a>
+              	 <ul class="dropdown-menu">
+                    <li><a href="mobifleet.html">Mobifleet</a></li>
+                    <li><a href="#">Mobisales</a></li>
+                    <li><a href="mobidelivery.html">Mobidelivery</a></li>
+                 </ul>
+              </li>
+              <li class="active"><a href="#">Contato</a></li>
+              <li><a href="http://www.facebook.com/pages/MobiView/302424353125606"target="_blank" onMouseOver="document.images['facebook'].src='assets/img/facebook.png';" onMouseOut="document.images['facebook'].src='assets/img/facebookpb.png';"><img src="assets/img/facebookpb.png" alt="Facebook - MobiView" name="facebook" border="0" id="facebook"/></a>
+              </li>
+              <li><a href="http://www.twitter.com/mobiview"target="_blank" onMouseOver="document.images['twitter'].src='assets/img/twitter.png';" onMouseOut="document.images['twitter'].src='assets/img/twitterpb.png';"><img src="assets/img/twitterpb.png" alt="Twitter - MobiView" name="twitter" border="0" id="twitter"/></a></li>
+              <li><a href="https://plus.google.com/b/105292959825653330317/105292959825653330317/posts"target="_blank" onMouseOver="document.images['plus'].src='assets/img/google-plus.png';" onMouseOut="document.images['plus'].src='assets/img/google-pluspb.png';"><img src="assets/img/google-pluspb.png" alt="Google Plus - MobiView" name="plus" border="0" id="plus"/></a></li>
+              <li><a href="http://www.linkedin.com/company/mobiview"target="_blank" onMouseOver="document.images['linkedin'].src='assets/img/linkedin.png';" onMouseOut="document.images['linkedin'].src='assets/img/linkedinpb.png';"><img src="assets/img/linkedinpb.png" alt="LinkedIn - MobiView" name="linkedin" border="0" id="linkedin"/></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+  <section id="header">
+    <div class="row">
+      <h1>Contato</h1>
+    </div>
+  </section>
+</div>
+
+<div class="container well">
+  
+     <div class="row">
+       <div class="span8">
+       
+<form name="submitform" action="submitemail.php" method="post" onSubmit="return validaForm();">
+  		   <label class="span3">Nome</i>
+  		   <input id="nometextoarea" name="nome" type="text" class="span3">
+        </label>
+           <label class="span3">E-mail
+           <input id="mailtextoarea" name="email" type="text" class="span3">
+           </label>
+  		   <label class="span3">Telefone
+           <input id="fonetextoarea" name="telefone" type="text" maxlength="14" class="span3"  onKeyDown="Mascara(this,Telefone);" onKeyPress="Mascara(this,Telefone);" onKeyUp="Mascara(this,Telefone);"/>
+        </label>
+           <label class="span3">Assunto
+           <input id="assuntotextoarea" name="assunto" type="text" class="span3">
+           </label>
+          <label class="span8">Mensagem
+           <textarea class="span6" id="msgtextoarea" rows="3"></textarea>
+           <br/>
+           <button type="submit" class="btn btn-primary btn-medium">Enviar</button>
+        </label>
+</form>
+
+</div>
+             
+         <div class="span4">
+             <p><iframe width="300" height="225" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=rua+dr+mario+badan,+39&amp;aq=&amp;sll=-15.45368,-37.441406&amp;sspn=46.785348,86.572266&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Dr.+M%C3%A1rio+Badan,+39+-+Jardim+Chapad%C3%A3o,+Campinas+-+S%C3%A3o+Paulo,+13070-093&amp;ll=-22.888575,-47.078137&amp;spn=0.002802,0.005284&amp;z=14&amp;iwloc=r0&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=rua+dr+mario+badan,+39&amp;aq=&amp;sll=-15.45368,-37.441406&amp;sspn=46.785348,86.572266&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Dr.+M%C3%A1rio+Badan,+39+-+Jardim+Chapad%C3%A3o,+Campinas+-+S%C3%A3o+Paulo,+13070-093&amp;ll=-22.888575,-47.078137&amp;spn=0.002802,0.005284&amp;z=14&amp;iwloc=r0" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small>
+<div class="texto_endereco">Rua Dr. Mário Badan,39<br />Jardim Chapadão<br />Campinas - São Paulo - Brasil<br />Tel: (19) 3342.4500</p>
+         </div>
+     </div>
+ 
+</div>
+</div>
+      <!-- Mapa do site -->
+    <footer>
+      <section id="links">
+        <div class="row" id="links">
+          <div class="offset1 span2">
+            <ul class="unstyled"><strong>Produtos</strong>
+              <li>MobiFleet</li>
+              <li>MobiSales</li>
+              <li>MobiDelivery</li>
+            </ul>
+          </div>
+          <div class="span2">
+            <ul class="unstyled"><strong>Institucional</strong>
+              <li>Quem somos</li>
+              <li>Blog</li>
+              <li>Contato</li>
+            </ul>
+          </div>
+          <div class="span2">
+            <ul class="unstyled"><strong>Suporte</strong>
+              <li>FAQ</li>
+              <li>Chat online</li>
+              <li>SAC online</li>
+            </ul>
+          </div>
+          <div class="offset1 span4" id="news">
+            <form action="http://mobiview.us4.list-manage.com/subscribe/post?u=100e74475ecb1f305f9e89777&amp;id=699d2ccf9a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate well form-inline" target="_blank">
+              <label for="mce-EMAIL"><big><strong>Newsletter</strong></big></label><br/>
+              <input type="email" value="" name="EMAIL" class="input-medium" id="mce-EMAIL" placeholder="e-mail">
+              <button type="submit" class="btn btn-primary btn-medium">Cadastrar</button>
+            </form>
+	      </div>
+	    </div>
+	  </section>
+</footer>
+      <!--End mc_embed_signup-->
+  
+  
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery-1.7.2.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/form.js"></script>
+<script src="assets/js/placeholder.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,758 @@
+#logo {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#banners .row {
+	margin-left: 15px;
+}
+#nomargin {
+	margin-left: 0px;
+}
+#smallmargin {
+	margin-left: 35px;
+}
+
+
+
+
+#balao {
+  background-color: white;
+}
+
+/*#carrossel {
+	float: left;
+	display: inline;
+}
+
+#carrossel ul {
+	float: left;
+}
+
+#carrossel ul li {
+	float: left;
+	display: inline;
+	padding-right: 0px;
+	padding-left: 35px;
+	padding-bottom: 30px;
+}
+*/
+#info {
+	padding-left: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#imgalert {
+	padding-top: 8px;
+}
+
+
+
+#links {
+	background-color: #333;
+	padding-top: 30px;
+	/*  padding-left: 60px;
+  padding-right: 60px;*/
+	color: #FFF;
+}
+#links a {
+	color: #CCC;
+	text-decoration: none;
+}
+#links a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+/*#mc_embed_signup {
+  background-color: #E6E6E6;
+  font-size: 11px;
+}
+#mce-EMAIL {
+  color: #333;
+}
+*/
+#banners {
+	margin-top: 70px;
+	/*background-color: white;*/
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+#banners .texto {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+}
+#banners .row .span5.texto p {
+	font-size: 23px;
+}
+#banners .row .span5.cabecalho h1 {
+	font-size: 60px;
+	padding: 0px;
+}
+#banners .row .span6.cabecalho h1 {
+	font-size: 60px;
+	padding: 0px;
+}
+
+#banners .row .span5.texto h1 {
+	font-size: 50px;
+}
+
+#banners p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+  color: inherit;
+}
+
+#clientes {
+	padding-top: 25px;
+}
+
+#calls li {
+	list-style-type: none;
+}
+
+#bndes {
+  background-color: #f5f5f5;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#textoarea:focus {
+	border-color:#d6de23;
+	outline:0;outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#empresa {
+	overflow-y: auto;
+	overflow-x: no;
+	height: 304px;
+}
+#empresa p {
+	margin-right: 10px;
+}
+#submenu {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#contatos {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#contatos:hover {
+	border-color:#d6de23;
+	outline:0;outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#header {
+	margin-top: 70px;
+}#agendamento p {
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	padding-right: 50px;
+}
+
+#nometextoarea {
+	color: #999999;
+}
+
+#nometextoarea:focus {
+	border-color:#d6de23;
+	outline:0;
+	outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#mailtextoarea {
+	color: #999999;
+}
+
+#mailtextoarea:focus {
+	border-color:#d6de23;
+	outline:0;
+	outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#fonetextoarea {
+	color: #999999;
+}
+
+#fonetextoarea:focus {
+	border-color:#d6de23;
+	outline:0;
+	outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#assuntotextoarea {
+	color: #999999;
+}
+
+#assuntotextoarea:focus {
+	border-color:#d6de23;
+	outline:0;
+	outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#msgtextoarea {
+	color: #999999;
+}
+
+#msgtextoarea:focus {
+	border-color:#d6de23;
+	outline:0;
+	outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#horatextoarea {
+	color: #999999;
+}
+
+#horatextoarea:focus {
+	border-color:#d6de23;
+	outline:0;
+	outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#datatextoarea {
+	color: #999999;
+}
+
+#datatextoarea:focus {
+	border-color:#d6de23;
+	outline:0;
+	outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px #d6de23, 0 0 8px d6de23;
+	-moz-box-shadow:inset 0 1px 1px d6de23, 0 0 8px d6de23;
+	box-shadow:inset 0 1px 1px #d6de23, 0 0 8px #d6de23;
+}
+
+#ddmenu {
+  margin-top: 6px;
+	background-color:#333333;
+	filter: alpha(opacity=100);
+}
+
+#ddmenu:hover {
+  background-color:#e6e6e6;
+}.span7 .span4 p {
+	text-align: justify;
+}
+.span7 .span4 li {
+	text-align: justify;
+}
+.span7 .span6 li {
+	text-align: justify;
+}
+#fleet {
+
+}
+
+#informacoes {
+	padding-bottom: 10px;
+}
+
+#rastreador {
+	margin-left: 10px;
+}
+#agendamento .row.well {
+	background-color: #FFF;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+
+#testechat .row.well {
+	background-color: #FFF;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+
+#bene1 {
+	padding-top: 30px;
+}
+
+#bene2 {
+	padding-top: 10px;
+}
+
+.well2 {
+  min-height: 30px;
+  border: 2px solid #eee;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#deliverytext {
+	padding-top: 30px;
+	text-align: justify;
+	
+}
+#deliverycontent {
+	margin-top: 150px;
+}
+
+.subnav {
+  width: 100%;
+  height: 36px;
+  background-color: #d6de23; /* Old browsers */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image: -ms-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* IE10+ */
+  background-image: -o-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6de23', endColorstr='#d6de23',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.subnav .nav {
+  margin-bottom: 0;
+}
+
+.subnav .nav > li > a {
+  margin: 0;
+  padding-top:    11px;
+  padding-bottom: 11px;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #e5e5e5;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.subnav .nav > .active > a,
+.subnav .nav > .active > a:hover {
+  padding-left: 13px;
+  color: #777;
+  background-color: #e9e9e9;
+  border-right-color: #ddd;
+  border-left: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+     -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+          box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+}
+.subnav .nav > .active > a .caret,
+.subnav .nav > .active > a:hover .caret {
+  border-top-color: #777;
+}
+.subnav .nav > li:first-child > a,
+.subnav .nav > li:first-child > a:hover {
+  border-left: 0;
+  padding-left: 12px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+.subnav .nav > li:last-child > a {
+  border-right: 0;
+}
+.subnav .dropdown-menu {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+/* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
+@media (min-width: 980px) {
+  .subnav-fixed {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 1; /* 10 less than .navbar-fixed to prevent any overlap */
+    border-color: #d5d5d5;
+    border-width: 0 0 1px; /* drop the border on the fixed edges */
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+       -moz-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+            box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); /* IE6-9 */
+  }
+  .subnav-fixed .nav {
+    width: 938px;
+    margin: 0 auto;
+    padding: 0 1px;
+  }
+	
+  .subnav .nav > li:first-child > a,
+  .subnav .nav > li:first-child > a:hover {
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+  }
+
+
+#botaomissao {
+	width: 400px;
+}
+
+/* Estilos referentes ao contador de km */
+
+.counter {
+	float:left;
+	padding:6px;
+	border:solid 1px #487431;
+	border-radius:5px;
+	background:#527F40;
+	background:linear-gradient(#8BC04C,#527F40);:-moz-linear-gradient(#8BC04C,#527F40);
+	background:-webkit-linear-gradient(#8BC04C,#527F40);
+	background:-ms-linear-gradient(#8BC04C,#527F40);
+	box-shadow:0 2px 4px rgba(0,0,0,0.4);
+}
+.counter span {
+  float:left;
+  width:22px;
+  height:30px;
+  margin:0;
+  padding:0;
+  text-indent:-9999px;
+  font-size:0.0001em;
+  background-image:url(../img/counter-sprite.png);
+}
+
+/* Set all the background positions, and hook up all the animations */
+.counter .digit-0 {
+    background-position:0 -300px;
+    animation-name: digitSpin0;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+	-webkit-animation-name: digitSpin0;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin0;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-1 {
+    background-position:0 -30px;
+    animation-name: digitSpin1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+	-webkit-animation-name: digitSpin1;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin0;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-2 {
+    background-position:0 -60px;
+	animation-name: digitSpin2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin2;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin2;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-3 {
+    background-position:0 -90px;
+	animation-name: digitSpin3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin3;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin3;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count:1;
+}
+.counter .digit-4 {
+    background-position:0 -120px;
+	animation-name: digitSpin4;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin4;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin4;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-5 {
+    background-position:0 -150px;
+	animation-name: digitSpin5;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin5;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin5;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-6 {
+    background-position:0 -180px;
+	animation-name: digitSpin6;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin6;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin6;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-7 {
+    background-position:0 -210px;
+	animation-name: digitSpin7;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin7;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin7;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-8 {
+    background-position:0 -240px;
+	animation-name: digitSpin8;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin8;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin8;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+.counter .digit-9 {
+    background-position:0 -270px;
+
+	animation-name: digitSpin9;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+    -webkit-animation-name: digitSpin9;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+
+	-moz-animation-name: digitSpin9;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+}
+
+/* Animation */
+@keyframes digitSpin0 {
+    from { background-position:0 0; }
+    to { background-position:0 -300px; }
+}
+@keyframes digitSpin1 {
+    from { background-position:0 0; }
+    to { background-position:0 -30px; }
+}
+@keyframes digitSpin2 {
+    from { background-position:0 0; }
+    to { background-position:0 -60px; }
+}
+@keyframes digitSpin3 {
+    from { background-position:0 0; }
+    to { background-position:0 -90px; }
+}
+@keyframes digitSpin4 {
+    from { background-position:0 0; }
+    to { background-position:0 -120px; }
+}
+@keyframes digitSpin5 {
+    from { background-position:0 0; }
+    to { background-position:0 -150px; }
+}
+@keyframes digitSpin6 {
+    from { background-position:0 0; }
+    to { background-position:0 -180px; }
+}
+@keyframes digitSpin7 {
+    from { background-position:0 0; }
+    to { background-position:0 -210px; }
+}
+@keyframes digitSpin8 {
+    from { background-position:0 0; }
+    to { background-position:0 -240px; }
+}
+@keyframes digitSpin9 {
+    from { background-position:0 0; }
+    to { background-position:0 -270px; }
+}
+
+/* Animation for Webkit */
+@-webkit-keyframes digitSpin0 {
+    from { background-position:0 0; }
+    to { background-position:0 -300px; }
+}
+@-webkit-keyframes digitSpin1 {
+    from { background-position:0 0; }
+    to { background-position:0 -30px; }
+}
+@-webkit-keyframes digitSpin2 {
+    from { background-position:0 0; }
+    to { background-position:0 -60px; }
+}
+@-webkit-keyframes digitSpin3 {
+    from { background-position:0 0; }
+    to { background-position:0 -90px; }
+}
+@-webkit-keyframes digitSpin4 {
+    from { background-position:0 0; }
+    to { background-position:0 -120px; }
+}
+@-webkit-keyframes digitSpin5 {
+    from { background-position:0 0; }
+    to { background-position:0 -150px; }
+}
+@-webkit-keyframes digitSpin6 {
+    from { background-position:0 0; }
+    to { background-position:0 -180px; }
+}
+@-webkit-keyframes digitSpin7 {
+    from { background-position:0 0; }
+    to { background-position:0 -210px; }
+}
+@-webkit-keyframes digitSpin8 {
+    from { background-position:0 0; }
+    to { background-position:0 -240px; }
+}
+@-webkit-keyframes digitSpin9 {
+    from { background-position:0 0; }
+    to { background-position:0 -270px; }
+}
+
+/* Animation for Gecko (Firefox) */
+@-moz-keyframes digitSpin0 {
+    from { background-position:0 0; }
+    to { background-position:0 -300px; }
+}
+@-moz-keyframes digitSpin1 {
+    from { background-position:0 0; }
+    to { background-position:0 -30px; }
+}
+@-moz-keyframes digitSpin2 {
+    from { background-position:0 0; }
+    to { background-position:0 -60px; }
+}
+@-moz-keyframes digitSpin3 {
+    from { background-position:0 0; }
+    to { background-position:0 -90px; }
+}
+@-moz-keyframes digitSpin4 {
+    from { background-position:0 0; }
+    to { background-position:0 -120px; }
+}
+@-moz-keyframes digitSpin5 {
+    from { background-position:0 0; }
+    to { background-position:0 -150px; }
+}
+@-moz-keyframes digitSpin6 {
+    from { background-position:0 0; }
+    to { background-position:0 -180px; }
+}
+@-moz-keyframes digitSpin7 {
+    from { background-position:0 0; }
+    to { background-position:0 -210px; }
+}
+@-moz-keyframes digitSpin8 {
+    from { background-position:0 0; }
+    to { background-position:0 -240px; }
+}
+@-moz-keyframes digitSpin9 {
+    from { background-position:0 0; }
+    to { background-position:0 -270px; }
+}
+
+#controlefrotas {
+	margin: 15px 5px 0;
+	text-align:justify;
+}
+
+#reducaofrotas {
+	margin: 15px 5px 0;
+	text-align:justify;
+}
+
+#relatoriofrotas {
+	margin: 15px 5px 0;
+	text-align:justify;
+}
