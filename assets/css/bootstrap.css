@@ -1674,7 +1674,7 @@ legend + .control-group {
   background-image: -moz-linear-gradient(top, #d6de23, #a7de23);
   background-image: -ms-linear-gradient(top, #d6de23, #a7de23);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d6de23), to(#a7de23));
-  background-image: -webkit-linear-gradient(top, #d6de23, #a7de23);
+  background-image: -webkit-linear-gradient(top, #FF8500, #FFC200);
   background-image: -o-linear-gradient(top, #d6de23, #a7de23);
   background-image: linear-gradient(top, #d6de23, #a7de23);
   background-repeat: repeat-x;
