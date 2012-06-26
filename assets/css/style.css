@@ -5,6 +5,17 @@
 #banners .row {
 	margin-left: 15px;
 }
+#services {
+	background-image: url(../img/caixa3.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	margin-right: 20px;
+}
+
 #fixbanner {
 	margin-left: 0px;
 	padding-left: 0px;
