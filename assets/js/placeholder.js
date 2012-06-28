@@ -36,16 +36,16 @@ function placeholder(selector, text) {
 /*Inserir textos*/
 
 $(function() {
-placeholder("#nometextoarea", "Ex: Mobiview Campinas");
+placeholder("#nometextoarea", "Ex: Bump Solutions");
 })
 $(function() {
-placeholder("#mailtextoarea", "Ex: contato@mobiview.com.br");
+placeholder("#mailtextoarea", "Ex: contato@bumpsolutions.com.br");
 })
 $(function() {
 placeholder("#fonetextoarea", "Ex: 1933424500");
 })
 $(function() {
-placeholder("#assuntotextoarea", "Ex: Vendas");
+placeholder("#assuntotextoarea", "Ex: Novo Site");
 })
 $(function() {
 placeholder("#msgtextoarea", "Ex: Digite sua mensagem...");

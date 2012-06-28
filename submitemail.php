@@ -1,6 +1,6 @@
 <?php
 
-$departamento = "comercial@mobiview.com.br";
+$departamento = "contato@bumpsolutions.com.br";
 $nome = $_POST['nome'];
 $assunto = $_POST['assunto'];
 $email = $_POST['email'];
@@ -30,6 +30,6 @@ mail($departamento, "Contato - Site", $mensagem, $headers);
 Mensagem que será impressa 
 */
 
-echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=http://www.mobiview.com.br'>";
+echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=http://www.bumpsolutions.com.br'>";
 ?>
 
