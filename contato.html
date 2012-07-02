@@ -31,7 +31,7 @@
 
 <body>
 
-    <!-- MobiView navbar -->
+    <!-- Bump Solutions navbar -->
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -63,25 +63,26 @@
   <section id="header">
     <div class="row">
       <h2><big><strong>Contato</strong></big></h2>
-      <br />
+      <br>
     </div>
   </section>
 </div>
-  
-     <div class="row" id="marginbotton">
-       <div class="span7 well">
+ 
+<div class="container"> 
+<div class="row">
+    <div class="span7 well">
        
 <form name="submitform" action="submitemail.php" method="post" onSubmit="return validaForm();">
-  		   <label class="span6">Nome</i>
+  		   <label class="span3">Nome</i>
   		   <input id="nometextoarea" name="nome" type="text" class="span3">
         </label>
-           <label class="span6">E-mail
+           <label class="span3">E-mail
            <input id="mailtextoarea" name="email" type="text" class="span3">
            </label>
-  		   <label class="span6">Telefone
+  		   <label class="span3">Telefone
            <input id="fonetextoarea" name="telefone" type="text" maxlength="14" class="span3"  onKeyDown="Mascara(this,Telefone);" onKeyPress="Mascara(this,Telefone);" onKeyUp="Mascara(this,Telefone);"/>
         </label>
-           <label class="span6">Assunto
+           <label class="span3">Assunto
            <input id="assuntotextoarea" name="assunto" type="text" class="span3">
            </label>
           <label class="span8">Mensagem
@@ -90,14 +91,45 @@
            <button type="submit" class="btn btn-primary btn-medium">Enviar</button>
         </label>
 </form>      
-</div>
-       
-<div class="span5" align="center">
+	</div><!--Fim da <div class="span7 well">-->
+    
+<!--<div class="span5" align="center">
 <img src="assets/img/contato.png">
+</div>-->
+</div>
+</div><!--Fim da <div class="row" id="marginbotton">-->     
+      
+
+      <div class="container">
+  <h2 align="center"><small>Powered by</small></h2>
+  <hr>
+  	<div class="row">
+    <div class="span12" align="center">
+    <div class="row">
+    	<div class="span2">
+        <img width="80%" src="assets/img/google-apps.png">
+        </div>
+        <div class="span2">
+        <img width="80%" src="assets/img/uol-host.png">
+        </div>
+        <div class="span2">
+        <img width="80%" src="assets/img/locaweb.png">
+        </div>
+        <div class="span2">
+        <img width="80%" src="assets/img/mailchimp.png">
+      	</div>
+      	<div class="span2">
+        <img width="80%" src="assets/img/wordpress.png">
+      	</div>
+        <div class="span2">
+        <img width="80%" src="assets/img/joomla.png">
+      	</div>
+    </div>
+    </div>
+    </div>
 </div>
         	
-</div>
-</div>
+
       <!-- Mapa do site -->
    <footer>
         <div class="row" id="links">
