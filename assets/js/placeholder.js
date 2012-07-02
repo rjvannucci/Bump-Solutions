@@ -42,7 +42,7 @@ $(function() {
 placeholder("#mailtextoarea", "Ex: contato@bumpsolutions.com.br");
 })
 $(function() {
-placeholder("#fonetextoarea", "Ex: 1933424500");
+placeholder("#fonetextoarea", "Ex: 1932084279");
 })
 $(function() {
 placeholder("#assuntotextoarea", "Ex: Novo Site");

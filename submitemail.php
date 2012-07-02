@@ -12,7 +12,7 @@ $mensagem = "Nome: ".$nome." <br \>";
 $mensagem .= "Assunto: ".$assunto." <br \>";
 $mensagem .= "Email: ".$email."  <br \>";
 $mensagem .= "Telefone: ".$telefone."  <br \>";
-$mensagem .= "Mensagem:". $mensagem."  <br \>";
+$mensagem .= "Mensagem:". $texto."  <br \>";
 
 $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=UTF-8\r\n";
