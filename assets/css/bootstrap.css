@@ -1670,7 +1670,7 @@ legend + .control-group {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 .btn-primary {
-  background-color: #c3de23;
+  background-color: #FFC200;
   background-image: -moz-linear-gradient(top, #FF8500, #FFC200);
   background-image: -ms-linear-gradient(top, #FF8500, #FFC200);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF8500), to(#FFC200));
